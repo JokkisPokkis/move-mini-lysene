@@ -13,7 +13,7 @@ input.onButtonPressed(Button.B, function () {
 let lysene: neopixel.Strip = null
 lysene = neopixel.create(DigitalPin.P0, 5, NeoPixelMode.RGB)
 basic.forever(function () {
-    basic.pause(100)
+    basic.pause(200)
     lysene.rotate(1)
     lysene.show()
 })
